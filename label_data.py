@@ -15,7 +15,9 @@ class labeldata:
         self.wifi = wifi_
 
 labels = [
-    labeldata("Gazellen", "gazelle.jpg", "MIR250", "GAZELLEN", "10.52.180.105", "MIR_204703014"),
-    labeldata("Pumba", "pumba.jpg", "MIR600", "PUMBA", "10.52.180.180", "MIR_204703014")
+    labeldata("Gazellen", "gazelle.jpg", "MIR250", "Gazellen", "10.52.180.105", "MIR_204703014"),
+    labeldata("Pumba", "pumba.jpg", "MIR600", "Pumba", "10.52.180.180", "?"),
+    labeldata("Malik", "malik.jpg", "MIR100", "Malik - MIR100", "10.52.180.104", "?"),
+    labeldata("Rhino", "rhino.jpg", "MIR1350", "EMB 1350CC", "10.52.180.183", "?")
 ]
 
