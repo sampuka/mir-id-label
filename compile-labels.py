@@ -18,7 +18,6 @@ for label in labels:
     label_src = label_src.replace('$PIC$', label.pic)
     label_src = label_src.replace('$MIR_TYPE$', label.mir_type)
     label_src = label_src.replace('$MIR_ID$', label.mir_id)
-    label_src = label_src.replace('$IP$', label.ip)
     label_src = label_src.replace('$WIFI$', label.wifi)
     label_source += label_src
 
